@@ -40,8 +40,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleFactoryPattern\Car.cs" />
+    <Compile Include="SimpleFactoryPattern\Facotry.cs" />
+    <Compile Include="SimpleFactoryPattern\Game.cs" />
+    <Compile Include="SimpleFactoryPattern\Product.cs" />
     <Compile Include="SingletonPattern\Singleton.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
