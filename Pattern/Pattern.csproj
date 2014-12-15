@@ -39,6 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactoryPattern\Adapter.cs" />
+    <Compile Include="AbstractFactoryPattern\AppleFactory.cs" />
+    <Compile Include="AbstractFactoryPattern\LightningAdapter.cs" />
+    <Compile Include="AbstractFactoryPattern\USBAdapter.cs" />
+    <Compile Include="AbstractFactoryPattern\Hongmi4G.cs" />
+    <Compile Include="AbstractFactoryPattern\Factory.cs" />
+    <Compile Include="AbstractFactoryPattern\IPhone6.cs" />
+    <Compile Include="AbstractFactoryPattern\Phone.cs" />
+    <Compile Include="AbstractFactoryPattern\XiaomiFactory.cs" />
     <Compile Include="FactoryMethodPattern\Car.cs" />
     <Compile Include="FactoryMethodPattern\CarFactory.cs" />
     <Compile Include="FactoryMethodPattern\Factory.cs" />
