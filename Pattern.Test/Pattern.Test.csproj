@@ -53,6 +53,7 @@
     <Compile Include="BridgePatternTest.cs" />
     <Compile Include="CompositePatternTest.cs" />
     <Compile Include="DecoratorPatternTest.cs" />
+    <Compile Include="FacadePatternTest.cs" />
     <Compile Include="FactoryMethodPatternTest.cs" />
     <Compile Include="Helloworld.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

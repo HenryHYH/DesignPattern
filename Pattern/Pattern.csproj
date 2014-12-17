@@ -66,6 +66,9 @@
     <Compile Include="DecoratorPattern\Decorator.cs" />
     <Compile Include="DecoratorPattern\SoundBox.cs" />
     <Compile Include="DecoratorPattern\XiaomiCar.cs" />
+    <Compile Include="FacadePattern\EmailSystem.cs" />
+    <Compile Include="FacadePattern\NotificationFacade.cs" />
+    <Compile Include="FacadePattern\SmsSystem.cs" />
     <Compile Include="FactoryMethodPattern\Car.cs" />
     <Compile Include="FactoryMethodPattern\CarFactory.cs" />
     <Compile Include="FactoryMethodPattern\Factory.cs" />
