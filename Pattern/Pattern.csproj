@@ -57,6 +57,10 @@
     <Compile Include="BridgePattern\TV.cs" />
     <Compile Include="BridgePattern\XiaomiRemoteControl.cs" />
     <Compile Include="BridgePattern\XiaomiTV.cs" />
+    <Compile Include="CompositePattern\Circle.cs" />
+    <Compile Include="CompositePattern\ComplexGraphics.cs" />
+    <Compile Include="CompositePattern\Graphics.cs" />
+    <Compile Include="CompositePattern\Line.cs" />
     <Compile Include="DecoratorPattern\Bumper.cs" />
     <Compile Include="DecoratorPattern\Car.cs" />
     <Compile Include="DecoratorPattern\Decorator.cs" />

@@ -51,6 +51,7 @@
     <Compile Include="AbstractFactoryPatternTest.cs" />
     <Compile Include="AdapterPatternTest.cs" />
     <Compile Include="BridgePatternTest.cs" />
+    <Compile Include="CompositePatternTest.cs" />
     <Compile Include="DecoratorPatternTest.cs" />
     <Compile Include="FactoryMethodPatternTest.cs" />
     <Compile Include="Helloworld.cs" />
