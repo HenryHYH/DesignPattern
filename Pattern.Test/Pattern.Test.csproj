@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactoryPatternTest.cs" />
+    <Compile Include="AdapterPatternTest.cs" />
     <Compile Include="FactoryMethodPatternTest.cs" />
     <Compile Include="Helloworld.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
