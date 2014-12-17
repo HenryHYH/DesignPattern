@@ -52,6 +52,11 @@
     <Compile Include="AdapterPattern\IThreeHole.cs" />
     <Compile Include="AdapterPattern\ObjectAdapter.cs" />
     <Compile Include="AdapterPattern\TwoHole.cs" />
+    <Compile Include="BridgePattern\AppleTV.cs" />
+    <Compile Include="BridgePattern\RemoteControl.cs" />
+    <Compile Include="BridgePattern\TV.cs" />
+    <Compile Include="BridgePattern\XiaomiRemoteControl.cs" />
+    <Compile Include="BridgePattern\XiaomiTV.cs" />
     <Compile Include="FactoryMethodPattern\Car.cs" />
     <Compile Include="FactoryMethodPattern\CarFactory.cs" />
     <Compile Include="FactoryMethodPattern\Factory.cs" />
