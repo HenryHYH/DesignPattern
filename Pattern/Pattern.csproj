@@ -117,6 +117,10 @@
     <Compile Include="StatePattern\RedState.cs" />
     <Compile Include="StatePattern\SilverState.cs" />
     <Compile Include="StatePattern\State.cs" />
+    <Compile Include="StrategyPattern\EnterpriseTaxStrategy.cs" />
+    <Compile Include="StrategyPattern\InterestOperation.cs" />
+    <Compile Include="StrategyPattern\ITaxStrategy.cs" />
+    <Compile Include="StrategyPattern\PersonalTaxStrategy.cs" />
     <Compile Include="TemplateMethodPattern\CustomerDataObject.cs" />
     <Compile Include="TemplateMethodPattern\DataObject.cs" />
   </ItemGroup>

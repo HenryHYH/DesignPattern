@@ -78,6 +78,7 @@
     <Compile Include="SimpleFactoryPatternTest.cs" />
     <Compile Include="SingletonPatternTest.cs" />
     <Compile Include="StatePatternTest.cs" />
+    <Compile Include="StrategyPatternTest.cs" />
     <Compile Include="TemplateMethodPatternTest.cs" />
   </ItemGroup>
   <ItemGroup>
