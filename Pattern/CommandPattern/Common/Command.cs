@@ -1,4 +1,4 @@
-﻿namespace Pattern.CommonPattern
+﻿namespace Pattern.CommandPattern.Common
 {
     public abstract class Command
     {

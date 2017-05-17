@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Pattern.CommonPattern
+namespace Pattern.CommandPattern.Common
 {
     public class Receiver
     {
