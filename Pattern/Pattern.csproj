@@ -94,6 +94,10 @@
     <Compile Include="IteratorPattern\ConcreteList.cs" />
     <Compile Include="IteratorPattern\IListCollection.cs" />
     <Compile Include="IteratorPattern\Iterator.cs" />
+    <Compile Include="ObserverPattern\ConcreteSubject.cs" />
+    <Compile Include="ObserverPattern\IObserver.cs" />
+    <Compile Include="ObserverPattern\Subject.cs" />
+    <Compile Include="ObserverPattern\Subscriber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProxyPattern\Booking.cs" />
     <Compile Include="ProxyPattern\Ctrip.cs" />
