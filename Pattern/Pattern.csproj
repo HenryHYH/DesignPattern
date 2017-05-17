@@ -57,6 +57,10 @@
     <Compile Include="BridgePattern\TV.cs" />
     <Compile Include="BridgePattern\XiaomiRemoteControl.cs" />
     <Compile Include="BridgePattern\XiaomiTV.cs" />
+    <Compile Include="CommonPattern\Command.cs" />
+    <Compile Include="CommonPattern\ConcerteCommand.cs" />
+    <Compile Include="CommonPattern\Invoker.cs" />
+    <Compile Include="CommonPattern\Receiver.cs" />
     <Compile Include="CompositePattern\Circle.cs" />
     <Compile Include="CompositePattern\ComplexGraphics.cs" />
     <Compile Include="CompositePattern\Graphics.cs" />
@@ -91,6 +95,8 @@
     <Compile Include="SimpleFactoryPattern\Game.cs" />
     <Compile Include="SimpleFactoryPattern\Product.cs" />
     <Compile Include="SingletonPattern\Singleton.cs" />
+    <Compile Include="TemplateMethodPattern\CustomerDataObject.cs" />
+    <Compile Include="TemplateMethodPattern\DataObject.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

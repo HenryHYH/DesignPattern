@@ -63,6 +63,7 @@
     <Compile Include="AbstractFactoryPatternTest.cs" />
     <Compile Include="AdapterPatternTest.cs" />
     <Compile Include="BridgePatternTest.cs" />
+    <Compile Include="CommandPatternTest.cs" />
     <Compile Include="CompositePatternTest.cs" />
     <Compile Include="DecoratorPatternTest.cs" />
     <Compile Include="FacadePatternTest.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="ProxyPatternTest.cs" />
     <Compile Include="SimpleFactoryPatternTest.cs" />
     <Compile Include="SingletonPatternTest.cs" />
+    <Compile Include="TemplateMethodPatternTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
