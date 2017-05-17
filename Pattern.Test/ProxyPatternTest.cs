@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Pattern.ProxyPattern;
+﻿using Pattern.ProxyPattern;
 using Xunit;
-using Xunit.Extensions;
-using Xunit.Should;
 
 namespace Pattern.Test
 {

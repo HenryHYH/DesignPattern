@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Pattern.DecoratorPattern;
 using Xunit;
-using Xunit.Extensions;
-using Xunit.Should;
-using Pattern.DecoratorPattern;
 
 namespace Pattern.Test
 {
@@ -17,13 +10,13 @@ namespace Pattern.Test
             Car car = new XiaomiCar();
 
             Decorator carWithBumper = new Bumper(car);
-            carWithBumper.Show().ShouldBe("XiaomiCar+Bumper");
+            Assert.Equal("XiaomiCar+Bumper", carWithBumper.Show());
 
             Decorator carWithSoundBox = new SoundBox(car);
-            carWithSoundBox.Show().ShouldBe("XiaomiCar+SoundBox");
+            Assert.Equal("XiaomiCar+SoundBox", carWithSoundBox.Show());
 
             Decorator carWithBumperAndSoundBox = new SoundBox(carWithBumper);
-            carWithBumperAndSoundBox.Show().ShouldBe("XiaomiCar+Bumper+SoundBox");
+            Assert.Equal("XiaomiCar+Bumper+SoundBox", carWithBumperAndSoundBox.Show());
         }
     }
 }

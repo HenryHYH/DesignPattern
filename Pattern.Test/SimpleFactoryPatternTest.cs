@@ -1,8 +1,6 @@
 ﻿using Pattern.SimpleFactoryPattern;
 using System;
 using Xunit;
-using Xunit.Extensions;
-using Xunit.Should;
 
 namespace Pattern.Test
 {
@@ -14,8 +12,8 @@ namespace Pattern.Test
         public void Test(string productName)
         {
             var product = Facotry.Make(productName);
-            product.ShouldNotBeNull();
-            product.Name.ShouldBe(productName);
+            Assert.NotNull(product);
+            Assert.Equal(productName, product.Name);
         }
 
         [Fact]

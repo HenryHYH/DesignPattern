@@ -1,26 +1,20 @@
 ﻿using Pattern.AbstractFactoryPattern;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
-using Xunit.Extensions;
-using Xunit.Should;
 
 namespace Pattern.Test
 {
     public class AbstractFactoryPatternTest
     {
         [Theory]
-        [PropertyData("TestData")]
+        [MemberData("TestData")]
         public void Test(Factory factory, string expectedOS, string expectedConnectionType)
         {
             var phone = factory.MakePhone();
-            phone.OS.ShouldBe(expectedOS);
+            Assert.Equal(expectedOS, phone.OS);
 
             var adapter = factory.MakeAdapter();
-            adapter.ConnectionType.ShouldBe(expectedConnectionType);
+            Assert.Equal(expectedConnectionType, adapter.ConnectionType);
         }
 
         public static IEnumerable<object[]> TestData

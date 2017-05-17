@@ -1,24 +1,18 @@
-﻿using System;
+﻿using Pattern.BridgePattern;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
-using Xunit.Extensions;
-using Xunit.Should;
-using Pattern.BridgePattern;
 
 namespace Pattern.Test
 {
     public class BridgePatternTest
     {
         [Theory]
-        [PropertyData("TestData")]
+        [MemberData("TestData")]
         public void Test(TV tv, string expectedOn, string expectedOff)
         {
             RemoteControl control = new XiaomiRemoteControl(tv);
-            control.On().ShouldBe(expectedOn);
-            control.Off().ShouldBe(expectedOff);
+            Assert.Equal(expectedOn, control.On());
+            Assert.Equal(expectedOff, control.Off());
         }
 
         public static IEnumerable<object[]> TestData

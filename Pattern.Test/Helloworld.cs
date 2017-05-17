@@ -1,5 +1,4 @@
-﻿using Xunit.Extensions;
-using Xunit.Should;
+﻿using Xunit;
 
 namespace Pattern.Test
 {
@@ -10,7 +9,7 @@ namespace Pattern.Test
         [InlineData(1, -1, 0)]
         public void Test(int a, int b, int expect)
         {
-            (a + b).ShouldBe(expect);
+            Assert.Equal(expect, (a + b));
         }
     }
 }

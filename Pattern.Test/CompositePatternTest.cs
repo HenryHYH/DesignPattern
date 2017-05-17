@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Pattern.CompositePattern;
 using Xunit;
-using Xunit.Extensions;
-using Xunit.Should;
-using Pattern.CompositePattern;
 
 namespace Pattern.Test
 {
@@ -22,10 +15,10 @@ namespace Pattern.Test
             Graphics redCircle = new Circle("Red");
             g.Add(redCircle);
 
-            g.Draw().ShouldBe("Green line + Red circle");
+            Assert.Equal("Green line + Red circle", g.Draw());
 
             g.Remove(greenLine);
-            g.Draw().ShouldBe("Red circle");
+            Assert.Equal("Red circle", g.Draw());
         }
     }
 }
