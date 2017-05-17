@@ -67,6 +67,7 @@
     <Compile Include="DecoratorPatternTest.cs" />
     <Compile Include="FacadePatternTest.cs" />
     <Compile Include="FactoryMethodPatternTest.cs" />
+    <Compile Include="FlyweightPatternTest.cs" />
     <Compile Include="Helloworld.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProxyPatternTest.cs" />
