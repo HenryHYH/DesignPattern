@@ -112,6 +112,11 @@
     <Compile Include="SimpleFactoryPattern\Game.cs" />
     <Compile Include="SimpleFactoryPattern\Product.cs" />
     <Compile Include="SingletonPattern\Singleton.cs" />
+    <Compile Include="StatePattern\Account.cs" />
+    <Compile Include="StatePattern\GlodState.cs" />
+    <Compile Include="StatePattern\RedState.cs" />
+    <Compile Include="StatePattern\SilverState.cs" />
+    <Compile Include="StatePattern\State.cs" />
     <Compile Include="TemplateMethodPattern\CustomerDataObject.cs" />
     <Compile Include="TemplateMethodPattern\DataObject.cs" />
   </ItemGroup>
