@@ -90,6 +90,10 @@
     <Compile Include="FlyweightPattern\Flyweight.cs" />
     <Compile Include="FlyweightPattern\Order.cs" />
     <Compile Include="FlyweightPattern\Table.cs" />
+    <Compile Include="IteratorPattern\ConcreteIterator.cs" />
+    <Compile Include="IteratorPattern\ConcreteList.cs" />
+    <Compile Include="IteratorPattern\IListCollection.cs" />
+    <Compile Include="IteratorPattern\Iterator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProxyPattern\Booking.cs" />
     <Compile Include="ProxyPattern\Ctrip.cs" />
