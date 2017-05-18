@@ -118,6 +118,8 @@
     <Compile Include="ObserverPattern\Subject.cs" />
     <Compile Include="ObserverPattern\Subscriber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrototypePattern\ConcretePrototype.cs" />
+    <Compile Include="PrototypePattern\MonkeyKingPrototype.cs" />
     <Compile Include="ProxyPattern\Booking.cs" />
     <Compile Include="ProxyPattern\Ctrip.cs" />
     <Compile Include="ProxyPattern\RailwayStation.cs" />
