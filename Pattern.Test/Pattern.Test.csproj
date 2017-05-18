@@ -63,6 +63,7 @@
     <Compile Include="AbstractFactoryPatternTest.cs" />
     <Compile Include="AdapterPatternTest.cs" />
     <Compile Include="BridgePatternTest.cs" />
+    <Compile Include="ChainOfResponsibilityPatternTest.cs" />
     <Compile Include="CommandPatternTest.cs" />
     <Compile Include="CompositePatternTest.cs" />
     <Compile Include="DecoratorPatternTest.cs" />
