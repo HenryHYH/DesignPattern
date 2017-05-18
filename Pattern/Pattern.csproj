@@ -57,6 +57,11 @@
     <Compile Include="BridgePattern\TV.cs" />
     <Compile Include="BridgePattern\XiaomiRemoteControl.cs" />
     <Compile Include="BridgePattern\XiaomiTV.cs" />
+    <Compile Include="BuilderPattern\CarBuilder.cs" />
+    <Compile Include="BuilderPattern\MotorCycleBuilder.cs" />
+    <Compile Include="BuilderPattern\Shop.cs" />
+    <Compile Include="BuilderPattern\Vehicle.cs" />
+    <Compile Include="BuilderPattern\VehicleBuilder.cs" />
     <Compile Include="ChainOfResponsibilityPattern\Approver.cs" />
     <Compile Include="ChainOfResponsibilityPattern\Manager.cs" />
     <Compile Include="ChainOfResponsibilityPattern\President.cs" />
