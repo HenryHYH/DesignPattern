@@ -104,6 +104,10 @@
     <Compile Include="MediatorPattern\Mediator.cs" />
     <Compile Include="MediatorPattern\PlayerA.cs" />
     <Compile Include="MediatorPattern\PlayerB.cs" />
+    <Compile Include="MementoPattern\Caretaker.cs" />
+    <Compile Include="MementoPattern\ContactMemento.cs" />
+    <Compile Include="MementoPattern\MobileOwner.cs" />
+    <Compile Include="MementoPattern\Person.cs" />
     <Compile Include="ObserverPattern\ConcreteSubject.cs" />
     <Compile Include="ObserverPattern\IObserver.cs" />
     <Compile Include="ObserverPattern\Subject.cs" />

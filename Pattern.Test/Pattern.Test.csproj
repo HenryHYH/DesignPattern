@@ -73,6 +73,7 @@
     <Compile Include="Helloworld.cs" />
     <Compile Include="IteratorPatternTest.cs" />
     <Compile Include="MediatorPatternTest.cs" />
+    <Compile Include="MementoPatternTest.cs" />
     <Compile Include="ObserverPatternTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProxyPatternTest.cs" />
