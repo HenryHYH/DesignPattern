@@ -128,6 +128,12 @@
     <Compile Include="StrategyPattern\PersonalTaxStrategy.cs" />
     <Compile Include="TemplateMethodPattern\CustomerDataObject.cs" />
     <Compile Include="TemplateMethodPattern\DataObject.cs" />
+    <Compile Include="VistorPattern\ConcreteVisitor.cs" />
+    <Compile Include="VistorPattern\Element.cs" />
+    <Compile Include="VistorPattern\ElementA.cs" />
+    <Compile Include="VistorPattern\ElementB.cs" />
+    <Compile Include="VistorPattern\IVisitor.cs" />
+    <Compile Include="VistorPattern\ObjectStructure.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

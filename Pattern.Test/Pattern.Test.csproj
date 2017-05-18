@@ -81,6 +81,7 @@
     <Compile Include="StatePatternTest.cs" />
     <Compile Include="StrategyPatternTest.cs" />
     <Compile Include="TemplateMethodPatternTest.cs" />
+    <Compile Include="VistiorPatternTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
