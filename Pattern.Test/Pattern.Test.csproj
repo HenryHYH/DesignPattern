@@ -72,6 +72,7 @@
     <Compile Include="FactoryMethodPatternTest.cs" />
     <Compile Include="FlyweightPatternTest.cs" />
     <Compile Include="Helloworld.cs" />
+    <Compile Include="InterpreterPatternTest.cs" />
     <Compile Include="IteratorPatternTest.cs" />
     <Compile Include="MediatorPatternTest.cs" />
     <Compile Include="MementoPatternTest.cs" />

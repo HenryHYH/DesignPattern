@@ -100,6 +100,12 @@
     <Compile Include="FlyweightPattern\Flyweight.cs" />
     <Compile Include="FlyweightPattern\Order.cs" />
     <Compile Include="FlyweightPattern\Table.cs" />
+    <Compile Include="InterpreterPattern\AddExpression.cs" />
+    <Compile Include="InterpreterPattern\Calculator.cs" />
+    <Compile Include="InterpreterPattern\Expression.cs" />
+    <Compile Include="InterpreterPattern\SubExpression.cs" />
+    <Compile Include="InterpreterPattern\SymbolExpression.cs" />
+    <Compile Include="InterpreterPattern\VarExpression.cs" />
     <Compile Include="IteratorPattern\ConcreteIterator.cs" />
     <Compile Include="IteratorPattern\ConcreteList.cs" />
     <Compile Include="IteratorPattern\IListCollection.cs" />
